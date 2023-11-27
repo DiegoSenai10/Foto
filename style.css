@@ -1,0 +1,78 @@
+body {
+    background-color: #2C2F33;
+    color: #FFFFFF;
+    font-family: 'Helvetica', sans-serif;
+    background-image: url('P1L9DYTB2LQV1698723692830.avif');
+    background-size: cover;
+    background-position: right;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#foto {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: 50%;
+    margin: 20px;
+    border: 5px solid #FFD700;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.7);
+}
+
+#camera {
+    width: 320px;
+    height: 240px;
+    margin: 20px;
+    transform: scaleX(-1);
+    border: 5px solid #FFD700;
+    border-radius: 10px;
+}
+
+.login-form {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #FF4500;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #FF6347;
+}
+
+#downloadLink {
+    display: none;
+}

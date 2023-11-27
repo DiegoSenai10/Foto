@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <video id="camera" autoplay></video>
+        <div id="foto"></div>
+        <form class="login-form">
+            <h2>Fotogrando Login</h2>
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="button" onclick="tirarFoto()">Tirar Foto</button>
+            <button type="submit">Entrar</button>
+        </form>
+        <a id="downloadLink" style="display: none;"></a>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
